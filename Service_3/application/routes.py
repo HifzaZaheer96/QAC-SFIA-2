@@ -6,9 +6,9 @@ from random import choice
 @app.route('/randomtheme', methods=['GET'])
 def ending():
 
-	list = ['and the theme is Party wear','and the theme is Casual wear','and the theme is Wedding wear']
+	list = ['and the theme is Disney Party','and the theme is Apocalypse Party','and the theme is Meme Party','and the theme is Candyland Party']
 	
-	return list[random.randrange(3)]
+	return list[random.randrange(4)]
 
 # def random_colour_code():
 # 	hex_chars=['0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f']
