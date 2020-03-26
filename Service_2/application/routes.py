@@ -5,6 +5,6 @@ import random
 @app.route('/randomcolor', methods=['GET'])
 def beginning():
 
-	list = ['Red','Yellow','Blue']
+	list = ['Your Outfit colour is Red','Your Outfit colour is Yellow','Your Outfit colour is Blue']
 	
-	return list[random.randrange(2)]
+	return list[random.randrange(3)]

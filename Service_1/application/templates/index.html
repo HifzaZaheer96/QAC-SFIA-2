@@ -1,21 +1,39 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+
 <!DOCTYPE html>
     <html>
         <head>
             <title>
-                Random Sentence Generator
+                Random Outfit Generator
             </title>
         </head>
         <body>
             <h1>
-                Random Sentence Generator Website
+                <center>Your Random Outfit Generator </center>
             </h1>
 
             <p>
-                {{ sentence }}
+              <center>{{ sentence }}</center>  
             </p>
 
-            <button onclick="window.location.reload();">
-                Generate Sentence
+            <center><button class="btn btn-primary"  onclick="window.location.reload();">
+                Generate Outfit
             </button>
+        </center>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </body>
     </html>    
+
+    {% endblock %}
