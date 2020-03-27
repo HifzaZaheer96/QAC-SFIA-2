@@ -2,9 +2,9 @@ from application import app
 import random
 
 
-@app.route('/randomcolor', methods=['GET'])
+@app.route('/randomcolor', methods=['GET', 'POST'])
 def beginning():
-
-	list = ['Your Outfit colour is Red','Your Outfit colour is Yellow','Your Outfit colour is Blue','Your Outfit colour is Grey']
 	
-	return list[random.randrange(4)]
+	list = ['Red','Yellow','Blue','Grey']
+	
+	return "Your Outfit colour is " + list[random.randrange(4)]

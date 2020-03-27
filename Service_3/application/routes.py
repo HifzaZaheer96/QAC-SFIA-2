@@ -1,20 +1,19 @@
 from application import app
 import random
+import requests
 from random import choice
+from flask import render_template, request
 
 
-@app.route('/randomtheme', methods=['GET'])
+@app.route('/randomtheme', methods=['GET','POST'])
 def ending():
-
-	list = ['and the theme is Disney Party','and the theme is Apocalypse Party','and the theme is Meme Party','and the theme is Candyland Party']
 	
-	return list[random.randrange(4)]
 
-# def random_colour_code():
-# 	hex_chars=['0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f']
-# 	colour_code = '#'
-# 	for i in range(0,6):
-# 		colour_code = colour_code + choice(hex_chars)
-# 	return colour_code
-# print("The color is: ", random_colour_code())
-
+		list1 = ['Disney Party','Apocalypse Party','Meme Party','Candyland Party']
+		list2 = ['in Metropolis', 'in Eerie', "in King's Landing", 'in Sunnydale', 'in Bedrock', 'in South Park', 'in Atlantis', 'in Mordor', 'in Olympus', 'in Dawnstar']
+		r = list1[random.randrange(4)]
+		j = list2[random.randrange(10)]
+		if r == 'Disney Party':
+			return "and the theme is Disney Party in King's Landing"
+		else:
+			return "and the theme is " + r + " " + j

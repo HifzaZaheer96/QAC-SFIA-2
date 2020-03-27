@@ -5,7 +5,7 @@ import random
 
 @app.route('/', methods=['GET'])
 def home():
-
+    
     response = requests.get('http://localhost:5003/randomoutfit')
     print(response)
     sentence = response.text
