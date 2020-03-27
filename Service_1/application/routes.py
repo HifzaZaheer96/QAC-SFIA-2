@@ -8,6 +8,6 @@ def home():
     
     response = requests.get('http://localhost:5003/randomoutfit')
     print(response)
-    sentence = response.text
-    return render_template('index.html', sentence = sentence, title = 'Home')
+    outfitgenerator = response.text
+    return render_template('index.html', sentence = outfitgenerator, title = 'Home')
 
