@@ -8,3 +8,4 @@ def sentence():
     theme = requests.get('http://localhost:5002/randomtheme')
     response = colour.text + " " + theme.text
     return response
+  
