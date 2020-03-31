@@ -2,7 +2,7 @@ from application import app
 import random
 import requests
 from random import choice
-from flask import Flask, render_template, request, session
+from flask import Flask, render_template, request, session,send_file
 
 app.config['SECRET_KEY'] = 'secret'
 
