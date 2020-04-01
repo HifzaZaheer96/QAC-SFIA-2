@@ -1,39 +1,60 @@
-    version: "3.7"
-    services: 
-      
-      service_1: 
-        build: 
-            context: ./service_1/
-            dockerfile: Dockerfile
-        ports: 
-          - "5000:5000"
-        networks:
-            - hifza_network_
-
-      service_2: 
-        build: 
-            context: ./service_2/
-            dockerfile: Dockerfile
-        networks:
-            - hifza_network_
-
-      service_3: 
-        build: 
-            context: ./service_3/
-            dockerfile: Dockerfile
-        networks:
-            - hifza_network_
-
-      service_4: 
-        build: 
-            context: ./service_4/
-            dockerfile: Dockerfile
-        networks:
-            - hifza_network_
-            
-    networks:
-      hifza_network_:
-        driver: bridge
+version: "3.7"
+services: 
   
+  service_1: 
+    build: 
+      context: ./service_1/
+      dockerfile: Dockerfile
+    image:
+        hifzazaheer96/sfia-2:service_1
+    ports: 
+      - "5000:5000"
+    environment:
+      - MYSQL=${MYSQL}
+      - USER=${USER}
+      - PASSWORD=${PASSWORD}
+      - DATABASE=${DATABASE}
+    networks:
+      - ingress 
+    deploy:
+      replicas: 3
+
+  service_2: 
+    build: 
+      context: ./service_2/
+      dockerfile: Dockerfile
+    image:
+        hifzazaheer96/sfia-2:service_2
+    networks:
+      - ingress 
+    deploy:
+      replicas: 3
+
+  service_3: 
+    build: 
+      context: ./service_3/
+      dockerfile: Dockerfile
+    image:
+        hifzazaheer96/sfia-2:service_3
+    networks:
+      - ingress 
+    deploy:
+      replicas: 3
+
+  service_4: 
+    build: 
+      context: ./service_4/
+      dockerfile: Dockerfile
+    image:
+        hifzazaheer96/sfia-2:service_4
+    networks:
+      - ingress 
+    deploy:
+      replicas: 3
+        
+networks:
+  ingress :
+    driver: overlay
+
 
 
