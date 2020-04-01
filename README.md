@@ -118,3 +118,22 @@ This is my final Database where I also added users table, so that user's can als
 [finaldatabase]: https://i.imgur.com/CZEOumu.png
 
 ![finaldatabase][finaldatabase]
+
+
+<a name ="sitemap"></a>
+## Website Sitemap
+Sitemap was created which is a blueprint to show the structure of the website and how the pages are linked. 
+
+[sitemap]: https://i.imgur.com/UaMzCeN.png
+
+![sitemap][sitemap]
+
+<a name ="wireframe"></a>
+## Website Wireframe
+Wireframe was created to help arrange the elements on the website and to achieve the optimum outcome. The wireframe was created considering the project brief of creating random objects while using micro-service architecture.
+
+Below shows the wireframe of the home page.
+
+[wireframe]: https://i.imgur.com/sYj0bJj.png
+
+![wireframe][wireframe]
