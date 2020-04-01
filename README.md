@@ -12,8 +12,8 @@ DEVOPS
 3. [Risk Assessment](#riskassessment)
 
 4. [Architecture](#architecture)
-  + [Initial ERD](#initialERD)
-  + [Final ERD](#finalERD)
+  + [Initial Database](#initialdatabase)
+  + [Final Database](#finaldatabase)
   + [Wesbite Sitemap](#sitemap)
   + [Website Wireframe](#wireframe)
   
@@ -90,3 +90,31 @@ Below is the Risk Assessment displayed in the Table:
 [riskassessment]: https://i.imgur.com/ZLe0fMQ.png
 
 ![riskassessment][riskassessment]
+
+
+
+<a name ="architecture"></a>
+## 4. Architecture
+Before bulding the application, design stage was considered, which involved series of steps to help me define and plan my application. 
+
+
+
+<a name ="initialdatabase"></a>
+## Initial Database
+Below is the initial Database for my project where I had minimum of one table that stores the randomly generated objects/sentence that appears on the front-end. 
+
+[initialdatabase]: https://i.imgur.com/gZMfgTu.png
+
+![initialdatabase][initialdatabase]
+
+
+
+<a name ="finaldatabase"></a>
+## Final Database
+
+This is my final Database where I also added users table, so that user's can also submit theme/message in case they couldn't find a fun theme for the party.As it is important to get feedback from the users to support their needs and demands.
+
+
+[finaldatabase]: https://i.imgur.com/CZEOumu.png
+
+![finaldatabase][finaldatabase]
