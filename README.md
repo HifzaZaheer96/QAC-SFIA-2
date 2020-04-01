@@ -1,7 +1,7 @@
 # SFIA-2
 DEVOPS
 
-# HZ Random Party Organiser
+# HZ Random Party Themes Generator
 1. [Brief](#brief)
   + [My Solution](#solution)
 2. [Trello Board](#trello)
@@ -134,6 +134,6 @@ Wireframe was created to help arrange the elements on the website and to achieve
 
 Below shows the wireframe of the home page.
 
-[wireframe]: https://i.imgur.com/sYj0bJj.png
+[wireframe]: 
 
 ![wireframe][wireframe]
