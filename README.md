@@ -108,6 +108,11 @@ Application flowchart showing the design process of the application
 ![appflow][appflow]
 
 
+Micro-service orientated architecture for the application
+[mic]: https://i.imgur.com/N9H0wnV.png
+
+![mic][mic]
+
 <a name ="initialdatabase"></a>
 ## Initial Database
 Below is the initial Database for my project where I had minimum of one table that stores the randomly generated objects/sentence that appears on the front-end. 
