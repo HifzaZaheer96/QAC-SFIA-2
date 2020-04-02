@@ -103,7 +103,7 @@ Before bulding the application, design stage was considered, which involved seri
 ## Application flowchart
 Application flowchart showing the design process of the application
 
-[appflow]: https://i.imgur.com/uK7EcfN.jpg
+[appflow]: https://i.imgur.com/VFU0qLT.jpg
 
 ![appflow][appflow]
 
