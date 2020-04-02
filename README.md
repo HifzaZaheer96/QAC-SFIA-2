@@ -12,6 +12,7 @@ DEVOPS
 3. [Risk Assessment](#riskassessment)
 
 4. [Architecture](#architecture)
+  + [Application Flowchart](#appflow)
   + [Initial Database](#initialdatabase)
   + [Final Database](#finaldatabase)
   + [Wesbite Sitemap](#sitemap)
@@ -97,6 +98,14 @@ Below is the Risk Assessment displayed in the Table:
 ## 4. Architecture
 Before bulding the application, design stage was considered, which involved series of steps to help me define and plan my application. 
 
+
+<a name ="appflow"></a>
+## Application flowchart
+Application flowchart showing the design process of the application
+
+[appflow]: https://i.imgur.com/uK7EcfN.jpg
+
+![appflow][appflow]
 
 
 <a name ="initialdatabase"></a>
