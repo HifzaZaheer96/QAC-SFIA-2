@@ -109,6 +109,7 @@ Application flowchart showing the design process of the application
 
 
 Micro-service orientated architecture for the application
+
 [mic]: https://i.imgur.com/N9H0wnV.png
 
 ![mic][mic]
