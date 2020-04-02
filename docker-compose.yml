@@ -2,9 +2,8 @@ version: "3.7"
 services: 
   
   service_1: 
-    image: hifzazaheer96/sfia-2:service_1
-    ports: 
-      - "5000:5000"
+    image: hifzazaheer96/service_1:latest
+    
     environment:
       - MYSQL=${MYSQL}
       - USER=${USER}
@@ -16,28 +15,28 @@ services:
       replicas: 3
 
   service_2: 
-    image: hifzazaheer96/sfia-2:service_2
+    image: hifzazaheer96/service_2:latest
     networks:
       - ingress 
     deploy:
-      replicas: 3
+      replicas: 1
 
   service_3: 
-    image: hifzazaheer96/sfia-2:service_3
+    image: hifzazaheer96/service_3:latest
     networks:
       - ingress 
     deploy:
-      replicas: 3
+      replicas: 1
 
   service_4: 
-    image: hifzazaheer96/sfia-2:service_4
+    image: hifzazaheer96/service_4:latest
     networks:
       - ingress 
     deploy:
       replicas: 3
 
   service_nginx:
-    image: hifzazaheer96/sfia-2:nginx
+    image: hifzazaheer96/nginx:latest
     ports:
       - "80:80"
     networks:

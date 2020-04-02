@@ -46,6 +46,3 @@ def ending():
 			return "and the theme is " + r + " " + j +". Your Ticket price is £" + ticket
 	else:
 		return "and the theme is " + d + " " + j +". Your Ticket price is £" + ticket
-
-		
-
