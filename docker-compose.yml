@@ -2,11 +2,7 @@ version: "3.7"
 services: 
   
   service_1: 
-    build: 
-      context: ./service_1/
-      dockerfile: Dockerfile
-    image:
-        hifzazaheer96/sfia-2:service_1
+    image: hifzazaheer96/sfia-2:service_1
     ports: 
       - "5000:5000"
     environment:
@@ -20,38 +16,40 @@ services:
       replicas: 3
 
   service_2: 
-    build: 
-      context: ./service_2/
-      dockerfile: Dockerfile
-    image:
-        hifzazaheer96/sfia-2:service_2
+    image: hifzazaheer96/sfia-2:service_2
     networks:
       - ingress 
     deploy:
       replicas: 3
 
   service_3: 
-    build: 
-      context: ./service_3/
-      dockerfile: Dockerfile
-    image:
-        hifzazaheer96/sfia-2:service_3
+    image: hifzazaheer96/sfia-2:service_3
     networks:
       - ingress 
     deploy:
       replicas: 3
 
   service_4: 
-    build: 
-      context: ./service_4/
-      dockerfile: Dockerfile
-    image:
-        hifzazaheer96/sfia-2:service_4
+    image: hifzazaheer96/sfia-2:service_4
     networks:
       - ingress 
     deploy:
       replicas: 3
-        
+
+  service_nginx:
+    image: hifzazaheer96/sfia-2:nginx
+    ports:
+      - "80:80"
+    networks:
+      - ingress
+    depends_on:
+      - service_1
+      - service_2
+      - service_3
+      - service_4
+    deploy:
+      replicas: 3
+   
 networks:
   ingress :
     driver: overlay
