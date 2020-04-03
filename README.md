@@ -93,6 +93,13 @@ Below is the Initial Risk Assessment displayed in the Table:
 ![riskassessment][riskassessment]
 
 
+Below is the Final Risk Assessment displayed in the Table:
+
+[finalriskassessment]: https://i.imgur.com/qXu4tza.png
+
+![finalriskassessment]https://i.imgur.com/mqD90GU.png
+
+
 
 <a name ="architecture"></a>
 ## 4. Architecture
