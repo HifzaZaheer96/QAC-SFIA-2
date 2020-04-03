@@ -147,8 +147,15 @@ Sitemap was created which is a blueprint to show the structure of the website an
 ## Website Wireframe
 Wireframe was created to help arrange the elements on the website and to achieve the optimum outcome. The wireframe was created considering the project brief of creating random objects while using micro-service architecture.
 
-Below shows the wireframe of the home page.
+Below shows the initial wireframe of the home page.
 
-[wireframe]: 
+[initialwireframe]: https://i.imgur.com/0YzOmpH.png
 
-![wireframe][wireframe]
+![initialwireframe][initialwireframe]
+
+
+Below shows the final wireframe of the home page.
+
+[finalwireframe]: https://i.imgur.com/5P1tCh2.png
+
+![finalwireframe][finalwireframe]
