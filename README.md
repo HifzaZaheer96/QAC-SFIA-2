@@ -110,7 +110,7 @@ Application flowchart showing the design process of the application
 
 Micro-service orientated architecture for the application
 
-[mic]: https://i.imgur.com/YOBQe1u.png
+[mic]: https://i.imgur.com/iWms8EJ.png
 
 ![mic][mic]
 

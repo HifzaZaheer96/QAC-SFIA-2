@@ -1,0 +1,14 @@
+- hosts: web
+  become: true
+  tasks:
+  - name: Install Docker
+    apt:
+      name: docker-ce
+      state: latest
+      update_cache: true
+
+  - name: Start docker service
+    service:
+      name: docker
+      state: started
+
