@@ -12,15 +12,20 @@
 #       name: docker
 #       state: started
 
-- name: install docker
+- name: install docker to worker node
   hosts: servers
   become: true
   roles:
     - docker-installation
 
+- name: install docker to local manager node
+  hosts: localhost
+  become: true
+  roles:
+    - docker-installation
 
 - name: initialise docker swarm 
-  hosts: swarm-manager
+  hosts: localhost
   become: true
   roles:
     - docker-swarm-init
