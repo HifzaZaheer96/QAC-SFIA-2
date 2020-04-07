@@ -3,8 +3,8 @@ services:
   
   service_1: 
     image: hifzazaheer96/service_1:latest
-    ports:
-      - "5000:5000"
+    # ports:
+    #   - "5000:5000"
     
     environment:
       - MYSQL=${MYSQL}

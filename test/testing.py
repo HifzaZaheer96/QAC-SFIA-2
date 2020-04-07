@@ -17,8 +17,8 @@ import urllib3
 
 def test_service1():
     http = urllib3.PoolManager()
-    r = http.request('GET', 'http://localhost:5000/')
-    assert 500 == r.status
+    r = http.request('GET', 'http://localhost:80/')
+    assert 200 == r.status
 
 # def test_home():
 #     http = urllib3.PoolManager()
