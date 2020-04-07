@@ -29,7 +29,7 @@ def home():
 
 
 
-    response = requests.get('http://service_4:5003/randomoutfit')
+    response = requests.get('http://service_4:5003/randomoutfit/')
     print(response)
     outfitgenerator = response.text
     outfit= str(outfitgenerator)
