@@ -4,6 +4,8 @@ source /var/lib/jenkins/workspace/"Pipeline 1"/venv/bin/activate
 
 pip3 install pytest
 
+pip3 install ansible 
+
 pip3 install urllib3
 
 pip3 install coverage

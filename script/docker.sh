@@ -1,4 +1,3 @@
 #!/bin/bash
-# source  ~/.bashrc
 source /var/lib/jenkins/workspace/"Pipeline 1"/venv/bin/activate
-ansible-playbook -i inventory.cfg playbook.yml
+docker stack deploy --compose-file docker-compose.yml stackthemegenerator 
