@@ -20,12 +20,12 @@ pipeline {
             }
         }
 
-        //  stage('Testing'){
-        //     steps {
-        //         sh './script/testing.sh'
+         stage('Testing'){
+            steps {
+                sh './script/testing.sh'
 
-        //     }
-        //  }
+            }
+         }
     }
 }
 
