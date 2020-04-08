@@ -1,13 +1,8 @@
 #!/bin/bash
-
-sudo apt update -y
-
-sudo apt install python3 -y
-
-sudo apt install python3-pip -y
-
-sudo apt install python3-venv -y
-
-sudo apt-get install libmysqlclient-dev -y
-
-python3 -m venv venv
+mkdir -p ~/.local/bin
+echo 'PATH=$PATH:~/.local/bin' >> ~/.bashrc
+source ~/.bashrc
+## install ansible with pip
+pip install --user ansible
+# check that ansible has been installed
+ansible --version
