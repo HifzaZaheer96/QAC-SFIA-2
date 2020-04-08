@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class ="text-center">
+    <h1> Didn't find any fun theme or you were looking for some outfits but your party theme was not listed? Please submit it here! </h1>
+</div>
+
+<div class = "createform">
+    <form class ="form-horizontal" method="POST">
+        <div class="form-group">
+            <div class = "input-group">
+                <label class="control-label col-sm-2">First Name</label>  
+            </div>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" name="first_name"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2">Last Name</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" name="second_name"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2">Username</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" name="username"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2">Email</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="email" name="email"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1" class="control-label col-sm-2">Message</label>
+            <div class="col-sm-5">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-offset-2 col-sm-10">
+            <button class="btn btn-primary" type="Submit">Submit </button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

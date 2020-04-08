@@ -1,0 +1,56 @@
+version: "3.7"
+services: 
+  
+  service_1: 
+    image: hifzazaheer96/service_1
+    environment:
+      - MYSQL=${MYSQL}
+      - USER=${USER}
+      - PASSWORD=${PASSWORD}
+      - DATABASE=${DATABASE}
+    networks:
+      - ingress 
+    deploy:
+      replicas: 3
+
+  service_2: 
+    image: hifzazaheer96/service_2
+    networks:
+      - ingress 
+    deploy:
+      replicas: 1
+
+  service_3: 
+    image: hifzazaheer96/service_3
+    networks:
+      - ingress 
+    deploy:
+      replicas: 1
+
+  service_4: 
+    image: hifzazaheer96/service_4
+    networks:
+      - ingress 
+    deploy:
+      replicas: 3
+
+  service_nginx:
+    image: hifzazaheer96/nginx:1
+    ports:
+      - "80:80"
+    networks:
+      - ingress
+    depends_on:
+      - service_1
+      - service_2
+      - service_3
+      - service_4
+    deploy:
+      replicas: 3
+   
+networks:
+  ingress :
+    driver: overlay
+
+
+
