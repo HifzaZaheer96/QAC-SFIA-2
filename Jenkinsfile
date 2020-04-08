@@ -7,7 +7,6 @@ pipeline {
                 sh './script/ansible.sh'
                 sh './script/docker.sh'
                 sh './script/before_installation.sh'
-                sh './script/make_service.sh'
             }
         }
         stage('Wait for installation'){
