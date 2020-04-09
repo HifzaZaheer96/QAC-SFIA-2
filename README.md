@@ -184,21 +184,21 @@ http://35.246.125.202/
 
 ## Home Page
 
-[home]: https://i.imgur.com/kjeJE63.png
+[home]: https://i.imgur.com/u8pKOVK.png
 
 ![home][home]
 
 
 ## Submit Theme Page
 
-[submittheme]: https://i.imgur.com/kjeJE63.png
+[submittheme]: https://i.imgur.com/SOfLJam.png
 
 ![submittheme][submittheme]
 
 
 ## About Us Page
 
-[about]: https://i.imgur.com/jvlzXos.png
+[about]: https://i.imgur.com/poLPNex.png
 
 ![about][about]
 
