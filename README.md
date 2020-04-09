@@ -260,3 +260,34 @@ Coverage Testing carried out to generate metric that will show how much of the s
   [bothcoverage]: https://i.imgur.com/gWuL9Ac.png
 
 ![bothcoverage][bothcoverage]
+
+<a name ="deployment"></a>
+## 7. Deployment
+The App was deployed using Jenkins and Github. Github webhooks was also integrated to trigger the build whenever the developer commits any change to the branch. This way when webhook was added to the job, it ensured that the build was triggered automatically everytime the code is commited to the Github.
+
+Below is the diagram demonstrating the Technology Overview:
+
+[deployment]: https://i.imgur.com/hSALIet.png
+
+![deployment][deployment]
+
+
+## How the process works:
+
+1. Jenkins waiting to trigger the build once change was fully committed:
+
+[build]: https://i.imgur.com/8koPeTm.png
+
+![build][build]
+
+2. Jenkins Build triggered automatically once change was committed:
+
+[build2]: https://i.imgur.com/w9SeLi9.png
+
+![build2][build2]
+
+3. App Deployed successfully using Jenkins while automatically triggering build when code is committed to GitHub. Build process deploys the App onto the Development Environment and tests the App using Pytest:
+
+[build3]: https://i.imgur.com/9AekqEx.png
+
+![build3][build3]
