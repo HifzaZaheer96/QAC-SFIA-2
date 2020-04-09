@@ -64,6 +64,10 @@ def test_contactus_worker():
     r = http.request('GET', 'http://35.246.125.202/contact')
     assert 404 == r.status
 
+def test_getresponse_worker():
+    r = requests.get('http://35.246.125.202/')
+    assert isinstance(r.text, str)
+
 def test_db_insert_user():
     with app.app_context():
         cur = mysql.connection.cursor()
