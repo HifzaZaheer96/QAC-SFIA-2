@@ -1,5 +1,5 @@
 # SFIA-2
-DEVOPSssss
+DEVOPS
 
 # HZ Random Party Themes Generator
 1. [Brief](#brief)
