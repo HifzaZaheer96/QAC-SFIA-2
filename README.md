@@ -171,3 +171,34 @@ Below shows the final wireframe of the home page.
 [finalwireframe]: https://i.imgur.com/5P1tCh2.png
 
 ![finalwireframe][finalwireframe]
+
+
+<a name ="implementation"></a>
+## 5. Visual Representation of App 
+
+### Link to The Party Themes Generator :
+### Manager Node
+http://35.197.228.70/
+### Worker Node
+http://35.246.125.202/
+
+## Home Page
+
+[home]: https://i.imgur.com/kjeJE63.png
+
+![home][home]
+
+
+## Submit Theme Page
+
+[submittheme]: https://i.imgur.com/kjeJE63.png
+
+![submittheme][submittheme]
+
+
+## About Us Page
+
+[about]: https://i.imgur.com/jvlzXos.png
+
+![about][about]
+
