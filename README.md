@@ -88,7 +88,12 @@ Risk Assessment was carried out to consider what could go wrong during the proje
 
 Below is the Initial Risk Assessment displayed in the Table:
 
-[riskassessment]: https://i.imgur.com/qXu4tza.png
+[riskassessmentmatrix]: https://i.imgur.com/wU753n5.png
+
+![riskassessmentmatrix][riskassessmentmatrix]
+
+
+[riskassessment]: https://i.imgur.com/CmbI4ip.png
 
 ![riskassessment][riskassessment]
 
