@@ -267,7 +267,7 @@ The App was deployed using Jenkins and Github. Github webhooks was also integrat
 
 Below is the diagram demonstrating the Technology Overview:
 
-[deployment]: https://i.imgur.com/hSALIet.png
+[deployment]:  https://i.imgur.com/mpcDAR1.png
 
 ![deployment][deployment]
 
