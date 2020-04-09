@@ -202,3 +202,61 @@ http://35.246.125.202/
 
 ![about][about]
 
+<a name ="testing"></a>
+## 6. Testing
+Testing the application to ensure it runs successfully. 
+Two types of tests were carried out including unit testing and coverage testing.
+
+<a name ="unittesting"></a>
+## Unit Testing
++ Testing URL to check whether the app has been deployed successfully and each web page is up and running. 
++ Testing Database to ensure data gets inserted and deleted successfully via the web application to ensure there are no errors runnung the Dynamic Web Application and to validate each unit of the software performs as it is designed to do so.
+
+### Unit Testing URLs:
+All the web pages were tested and even pages that don't exist were tested too to ensure that the user can access what is accessible to them and can't access what is not accessible to them.
+
+Below shows the result of the URL Testing carried out:
+
+[urltest]: https://i.imgur.com/4VaNPx5.png
+
+![urltest][urltest]
+
+### Unit Testing Database:
+Database tested to allow user to input as desinged to, updating the dynamic web app, and testing whether user can delete the items created to ensure the database is fully functional and the CRUD results are reflected both on the Front- End (Website) and Back-End (Database) at the same time.
+
+Below shows all the testing/ queries carried out for Database:
+
+[dbtest]: https://i.imgur.com/t41D9TX.png
+
+![dbtest][dbtest]
+
+### Combining both URL and Database Testing:
+
+[bothtest]: https://i.imgur.com/zUUj4iz.png
+
+![bothtest][bothtest]
+
+
+<a name ="coveragetesting"></a>
+## Coverage Testing
+Coverage Testing carried out to generate metric that will show how much of the source is tested to assess the test suite quality.
+
+### URL Coverage Testing:
+ 
+ [urlcoverage]:  https://i.imgur.com/e1vUekQ.png
+
+![urlcoverage][urlcoverage]
+
+### Database Coverage Testing:
+ 
+  [dbcoverage]: https://i.imgur.com/9n7xJWp.png
+
+![dbcoverage][dbcoverage]
+
+
+### Combining both URL and Database Coverage Testing:
+ The coverage metrics went down when both URL and Database were tested together due to the complexity of the application and by importing more libraries.
+ 
+  [bothcoverage]: https://i.imgur.com/gWuL9Ac.png
+
+![bothcoverage][bothcoverage]
