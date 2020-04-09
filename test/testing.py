@@ -1,10 +1,11 @@
 import urllib3
-from flask import Flask
-from flask_mysqldb import MySQL
-import os
+import flask
 import unittest
 import pytest
 import requests
+from flask_mysqldb import MySQL
+from flask import Flask
+import os
 
 
 app = Flask(__name__)
