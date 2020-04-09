@@ -35,13 +35,13 @@ def test_contactus():
     assert 404 == r.status
 
 
-def test_db_select():
-    with app.app_context():
-        cur = mysql.connection.cursor()
-        num_of_records = cur.execute("SELECT * FROM themesentence")
-        mysql.connection.commit()         
-        cur.close()
-        assert 7 == num_of_records 
+# def test_db_select():
+#     with app.app_context():
+#         cur = mysql.connection.cursor()
+#         num_of_records = cur.execute("SELECT * FROM themesentence")
+#         mysql.connection.commit()         
+#         cur.close()
+#         assert 7 == num_of_records 
 
 def test_db_insert_user():
     with app.app_context():
