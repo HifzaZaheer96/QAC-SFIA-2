@@ -278,19 +278,19 @@ Below is the diagram demonstrating the Technology Overview:
 
 ## How the process works:
 
-1. Jenkins waiting to trigger the build once change was fully committed:
+### 1. Jenkins waiting to trigger the build once change was fully committed:
 
 [build]: https://i.imgur.com/IakNROG.png
 
 ![build][build]
 
-2. Jenkins Build triggered automatically once change was committed:
+### 2. Jenkins Build triggered automatically once change was committed:
 
 [build2]: https://i.imgur.com/sZwSVBP.png
 
 ![build2][build2]
 
-3. App Deployed successfully using Jenkins while automatically triggering build when code is committed to GitHub. Build process deploys the App onto the Development Environment:
+### 3. App Deployed successfully using Jenkins while automatically triggering build when code is committed to GitHub. Build process deploys the App onto the Development Environment:
 
 [build3]: https://i.imgur.com/NNTYw8N.png
 
@@ -301,13 +301,13 @@ Below is the diagram demonstrating the Technology Overview:
 
 ![build4][build4]
 
-4. Deploying Ansible File to Install Docker on manager and worker node and automate docker swarm
+### 4. Deploying Ansible File to Install Docker on manager and worker node and automate docker swarm
 
 [build5]: https://i.imgur.com/9wktd6W.png
 
 ![build5][build5]
 
-5. Automatically deploying the stack 
+### 5. Automatically deploying the stack 
 
 [build6]: https://i.imgur.com/KeyBBbt.png
 
