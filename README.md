@@ -358,21 +358,21 @@ Below is the diagram demonstrating the Technology Overview:
 
 ![security2][security2]
 
-[security2]: https://i.imgur.com/F3AM5ij.png
+[security3]: https://i.imgur.com/F3AM5ij.png
 
-![security2][security2]
+![security3][security2]
 
-[security2]: https://i.imgur.com/PhWnPnD.png
+[security4]: https://i.imgur.com/PhWnPnD.png
 
-![security2][security2]
+![security4][security4]
 
 + Jenkins: Port 8080 for jenkins is not exposed to the world as Jenkins run on port 8080.
 + Front- End: The app is accessible to everyone using 0.0.0.0/0 firewall rule. 
 + Firewall Rule: Configuring firewall for Docker Swarm allowing it to run on port 2377 tcp.
 
-[security4]: https://i.imgur.com/XLUiqJx.png
+[security5]: https://i.imgur.com/XLUiqJx.png
 
-![security4][security4]
+![security5][security5]
 
 ## List of technologies used:
 + Trello Board - Project Planning and Tracking Board
