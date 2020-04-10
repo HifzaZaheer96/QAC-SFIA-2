@@ -112,6 +112,7 @@ Before bulding the application, design stage was considered, which involved seri
 
 
 <a name ="appflow"></a>
+
 ## Application flowchart
 Application flowchart showing the design process of the application
 
@@ -120,11 +121,20 @@ Application flowchart showing the design process of the application
 ![appflow][appflow]
 
 
-Micro-service orientated architecture for the application
+## Micro-service orientated architecture for the application
 
 [mic]: https://i.imgur.com/iWms8EJ.png
 
 ![mic][mic]
+
+## Feature Branch Model
+Using feature branch while still working on the app/creating new features and comitting to that branch locally and regularly unless the change is ready to be merged to the master branch. 
+
+After the new features are revised they are now ready to merged to the master branch. On the master branch, the code is deployable and is deployed onto the production servers. This allows me to have stable versions which are ready for production through master branch.
+
+[fbm]: https://i.imgur.com/k6Tl2Sm.png
+
+![fbm][fbm]
 
 <a name ="initialdatabase"></a>
 ## Initial Database
