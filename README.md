@@ -360,7 +360,7 @@ Below is the diagram demonstrating the Technology Overview:
 
 [security3]: https://i.imgur.com/F3AM5ij.png
 
-![security3][security2]
+![security3][security3]
 
 [security4]: https://i.imgur.com/PhWnPnD.png
 
