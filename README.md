@@ -280,18 +280,28 @@ Below is the diagram demonstrating the Technology Overview:
 
 1. Jenkins waiting to trigger the build once change was fully committed:
 
-[build]: https://i.imgur.com/8koPeTm.png
+[build]: 
 
 ![build][build]
 
 2. Jenkins Build triggered automatically once change was committed:
 
-[build2]: https://i.imgur.com/w9SeLi9.png
+[build2]: 
 
 ![build2][build2]
 
-3. App Deployed successfully using Jenkins while automatically triggering build when code is committed to GitHub. Build process deploys the App onto the Development Environment and tests the App using Pytest:
+3. App Deployed successfully using Jenkins while automatically triggering build when code is committed to GitHub. Build process deploys the App onto the Development Environment:
 
-[build3]: https://i.imgur.com/9AekqEx.png
+[build3]: 
 
 ![build3][build3]
+
+
+4. Deploying Ansible File to Install Docker on manager and worker node and automate docker swarm
+
+
+6. Automatically deploying the stack 
+
+
+
+7. Tests the App using Pytest
