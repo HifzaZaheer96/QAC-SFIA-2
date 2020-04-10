@@ -271,7 +271,7 @@ This prevents human error as ansible is a configuration management tool therefor
 
 Below is the diagram demonstrating the Technology Overview:
 
-[deployment]:  https://i.imgur.com/mpcDAR1.png
+[deployment]:  https://i.imgur.com/244Tka0.png
 
 ![deployment][deployment]
 
