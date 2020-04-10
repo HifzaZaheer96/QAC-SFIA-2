@@ -358,7 +358,7 @@ Below is the diagram demonstrating the Technology Overview:
 
 ![security2][security2]
 
-[security3]: https://i.imgur.com/F3AM5ij.png
+[security3]: https://i.imgur.com/h4w29UH.png
 
 ![security3][security3]
 
