@@ -319,4 +319,16 @@ Below is the diagram demonstrating the Technology Overview:
 
 ![build7][build7]
 
-### 7. Docker Swamr Deployed Successfully (Manager Node)
+### 7. Docker Swamr Deployed Successfully 
+
+#### Manager Node
+
+[build8]: https://i.imgur.com/DJdVeMI.png
+
+![build8][build8]
+
+#### Worker Node
+
+[build9]: https://i.imgur.com/16FVDSJ.png
+
+![build9][build9]
