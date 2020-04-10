@@ -313,7 +313,7 @@ Below is the diagram demonstrating the Technology Overview:
 
 ![build6][build6]
 
-6. Tests the App using Pytest
+### 6. Tests the App using Pytest
 
 [build7]: https://i.imgur.com/J2tbgwh.png
 
