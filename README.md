@@ -263,7 +263,9 @@ Coverage Testing carried out to generate metric that will show how much of the s
 
 <a name ="deployment"></a>
 ## 7. Deployment
-The App was deployed using Jenkinns,Github and Docker hub. Github webhooks was also integrated to trigger the build whenever the developer commits any change to the branch where docker hub is connected to github so all the build process of images and pushing them onto the github is done automatically. As Jenkins is connected to Github, this way when webhook was added to the job, it ensured that the build was triggered automatically everytime the code is commited to the Github.Therefore, Jenkins triggers the build automatically and then deploys ansible playbook which installs Docker on Manager and worker node and automates docker swarm. 
+The App was deployed using Jenkinns,Github and Docker hub. Github webhooks was also integrated to trigger the build whenever the developer commits any change to the branch where docker hub is connected to github so all the build process of images and pushing them onto the docker hub is done automatically.
+
+ As Jenkins is connected to Github, this way when webhook was added to the job, it ensured that the build was triggered automatically everytime the code is commited to the Github.Therefore, Jenkins triggers the build automatically and then deploys ansible playbook which installs Docker on Manager and worker node and automates docker swarm. 
 
 This prevents human error as ansible is a configuration management tool therefore, it deploys the same software to as many worker nodes automatically without installing them manually which not only saves time but also prevents human error.
 
