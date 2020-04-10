@@ -332,3 +332,41 @@ Below is the diagram demonstrating the Technology Overview:
 [build9]: https://i.imgur.com/16FVDSJ.png
 
 ![build9][build9]
+
+
+
+## List of technologies used:
++ Trello Board - Project Planning and Tracking Board
++ MySQL - Relational Database for Application
++ Python - Coding in Flask
++ Flask - Framework
++ Testing - Pytest (Unit Testing, Coverage Testing)
++ Github Project - Version Control System
++ Google Cloud Platform (MySQL DB, GCP VM)
++ Docker: Containerisation
++ Dockerhub: Repository for container images
++ Ansible: Configuration Management Tool
++ NGINX: Load Balancing
++ Jenkins - CI/CD Server for Deploying the Application
+
+
+ 
+
+<a name ="retrospect"></a>
+## 8. Retrospect
+
+### What went well:
+
+### Challenges faced:
+
+### Future Improvements:
+
+<a name ="authors"></a>
+## 9. Authors
+
+Hifza Zaheer
+
+<a name ="acknowledgements"></a>
+## 10. Acknowledgements
+
+I acknowledge the help and support that I have received throughout my project, Special thanks to my tutor, Syed Ahmed for his guidance through each phase of the project which helped me achieve my potential.
