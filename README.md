@@ -343,7 +343,36 @@ Below is the diagram demonstrating the Technology Overview:
 
 ![build9][build9]
 
+## Security of the Application
 
++ Container Security: No ports are exposed , port 5000 is also not exposed to the world.
+
+[security1]: https://i.imgur.com/xleRs34.png
+
+![security1][security1]
+
+
++ NGINX: Only port 80 exposed which is doing reverse proxy into microservice 1.
+
+[security2]: https://i.imgur.com/VBZGsTs.png
+
+![security2][security2]
+
+[security2]: https://i.imgur.com/F3AM5ij.png
+
+![security2][security2]
+
+[security2]: https://i.imgur.com/PhWnPnD.png
+
+![security2][security2]
+
++ Jenkins: Port 8080 for jenkins is not exposed to the world as Jenkins run on port 8080.
++ Front- End: The app is accessible to everyone using 0.0.0.0/0 firewall rule. 
++ Firewall Rule: Configuring firewall for Docker Swarm allowing it to run on port 2377 tcp.
+
+[security4]: https://i.imgur.com/XLUiqJx.png
+
+![security4][security4]
 
 ## List of technologies used:
 + Trello Board - Project Planning and Tracking Board
