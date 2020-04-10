@@ -69,7 +69,7 @@ Trello Board was used to plan, organize and prioritize my project so that not on
 <a name ="userstories"></a>
 ### User Stories
 
-[userstories]: https://i.imgur.com/B7WRuif.png
+[userstories]: https://i.imgur.com/UuDxumL.png
 
 ![userstories][userstories]
 
