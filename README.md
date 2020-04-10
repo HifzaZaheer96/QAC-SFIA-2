@@ -77,14 +77,14 @@ Trello Board was used to plan, organize and prioritize my project so that not on
 ### Inital Trello Board
 Initial Trello board has all the product backlog, sprint backlog which is then broken down into small and manageable tasks. Once each task is completed, it is then moved to Done and during that process if any errors were encountered, those were listed in bugs.
 
-[initialtrello]: https://i.imgur.com/SZcPjPZ.png
+[initialtrello]: https://i.imgur.com/6wF8cSO.png
 
 ![initialtrello][initialtrello]
 
 <a name ="progresstrello"></a>
 ## Progress Trello Board
 
-[progresstrello]: https://i.imgur.com/SV1Qasy.png
+[progresstrello]: https://i.imgur.com/mOSXUUn.png
 
 ![progresstrello][progresstrello]
 
@@ -92,7 +92,7 @@ Initial Trello board has all the product backlog, sprint backlog which is then b
 <a name ="finaltrello"></a>
 ## Final Trello Board
 
-[finaltrello]: 
+[finaltrello]: https://i.imgur.com/emJH2UG.png
 
 ![finaltrello][finaltrello]
 
