@@ -318,3 +318,5 @@ Below is the diagram demonstrating the Technology Overview:
 [build7]: https://i.imgur.com/J2tbgwh.png
 
 ![build7][build7]
+
+### 7. Docker Swamr Deployed Successfully (Manager Node)
