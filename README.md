@@ -44,7 +44,22 @@ To create:
 
 <a name ="solution"></a>
 ## My Solution
-My application is created using Boostrap, Jinja2 and Flask for the Front-End and Python and MySQL for the Back-End Development.It is a website where user's can organise a party and each time, random party theme, outfit colour, location and ticket price would be generated. Lucky winner can also have free entry ticket to the party. User's input is also taken into consideration as if a user is a child, the theme of the party generated would be suitable for children for example "Princess Party" where as for adults it would display different results for example "Halloween Parrty". The website is user-friendly and responsive for better user experience.  
+My application is created using Boostrap, Jinja2 and Flask for the Front-End and Python and MySQL for the Back-End Development.It is a website where user's can generate a party theme and each time, random party theme, outfit colour, location and ticket price would be generated. Lucky winner can also have free entry ticket to the party. User's input is also taken into consideration as if a user is a child, the theme of the party generated would be suitable for children for example "Princess Party" where as for adults it would display different results for example "Halloween Parrty". The website is user-friendly and responsive for better user experience. 
+
+### Service 1: 
++ Renders website to the user
++ Takes User Input
++ Displays the theme generated from Service 4
++ Store the displayed theme into the database
+
+### Service 2:
++ Generates random colour of the outfit
+
+### Service 3:
++ Generates random location, ticket price and theme party considering the user's age
+
+### Service 4:
++ Calls Service 2 and Service 3 and generates output combined from Service 2 and Service 3 and displays it back to Service 1
 
 <a name ="trello"></a>
 ## 2. Trello Board
