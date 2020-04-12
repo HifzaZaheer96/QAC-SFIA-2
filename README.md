@@ -255,7 +255,7 @@ Database tested to allow user to input as desinged to while submitting theme, st
 
 Below shows all the testing/ queries carried out for Database:
 
-[dbtest]: hhttps://i.imgur.com/DDN71Cf.png
+[dbtest]: https://i.imgur.com/DDN71Cf.png
 
 ![dbtest][dbtest]
 
