@@ -12,13 +12,13 @@ pipeline {
                 
             }
         }
-        // stage('Wait for installation'){
-        //     steps{
+        stage('Wait for installation'){
+            steps{
                 
-        //         sh 'sleep 10'
+                sh 'sleep 10'
                
-        //     }
-        // }
+            }
+        }
 
          stage('Testing'){
             steps {
