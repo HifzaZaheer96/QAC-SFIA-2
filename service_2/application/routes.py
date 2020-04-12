@@ -13,6 +13,7 @@ def beginning():
 	return "Your Outfit colour is " + colour
 
 
+
     
 		# list = ['Red','Yellow','Blue','Grey','Orange','Pink','Black']
 		
