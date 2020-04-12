@@ -6,7 +6,7 @@ import requests
 from flask_mysqldb import MySQL
 from flask import Flask
 import os
-
+import csv
 
 app = Flask(__name__)
 
@@ -71,6 +71,12 @@ def test_contactus_worker():
 def test_getresponse_worker():
     r = requests.get('http://35.246.125.202/')
     assert isinstance(r.text, str)
+
+def test_csv_service_2():
+    for row in open("/home/Admin/Docker-SFIA-2/SFIA-2/service_2/application/colour.txt"):
+        coloumnlist = str(row)
+        coloumnlist = coloumnlist.split(",")
+    assert len(coloumnlist) == 8
 
 def test_db_insert_user():
     with app.app_context():
