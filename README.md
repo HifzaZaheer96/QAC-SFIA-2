@@ -255,7 +255,7 @@ Database tested to allow user to input as desinged to while submitting theme, st
 
 Below shows all the testing/ queries carried out for Database:
 
-[dbtest]: https://i.imgur.com/t41D9TX.png
+[dbtest]: hhttps://i.imgur.com/DDN71Cf.png
 
 ![dbtest][dbtest]
 
@@ -263,9 +263,15 @@ Below shows all the testing/ queries carried out for Database:
 
 ![dbtest1][dbtest1]
 
-### Combining both URL and Database Testing:
+### Unit Testing Service 2 File Reader:
 
-[bothtest]: https://i.imgur.com/zUUj4iz.png
+[s2]: https://i.imgur.com/Ze2VTdL.png
+
+![s2][s2]
+
+### Combining the 3 types of Unit Testing:
+
+[bothtest]: https://i.imgur.com/XuN8Xq5.png
 
 ![bothtest][bothtest]
 
@@ -287,7 +293,7 @@ Coverage Testing carried out to generate metric that will show how much of the s
 ![dbcoverage][dbcoverage]
 
 
-### Combining both URL and Database Coverage Testing:
+### Combining All types of Coverage Testing:
  The coverage metrics went down when both URL and Database were tested together due to the complexity of the application and by importing more libraries.
  
   [bothcoverage]: https://i.imgur.com/gWuL9Ac.png
