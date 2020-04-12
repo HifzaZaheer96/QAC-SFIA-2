@@ -352,6 +352,12 @@ Below is the diagram demonstrating the Technology Overview:
 
 ![build8][build8]
 
+#### Services Replicated successfully on Manager Node
+
+[b]: https://i.imgur.com/ov1elUJ.png
+
+![b][b]
+
 #### Worker Node
 
 [build9]: https://i.imgur.com/16FVDSJ.png
