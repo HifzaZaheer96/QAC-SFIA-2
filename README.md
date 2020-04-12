@@ -309,10 +309,12 @@ Coverage Testing carried out to generate metric that will show how much of the s
 
 ### HTML coverage report
 
-
 [html]: https://i.imgur.com/BsVo5wd.png
 
 ![html][html]
+
+### Comparison of coverage report:
+While running the coverage test report for the whole application, it showed 38% of the source code tested whereas when sourcing the test file and running the coverage test , coverage report showed 100% result as all the tests in the testing file have been passed successfully.
 
 
 <a name ="deployment"></a>
