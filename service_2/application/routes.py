@@ -1,6 +1,6 @@
 from application import app
 import random
-# import csv
+import csv
 
 
 @app.route('/randomcolor', methods=['GET', 'POST'])
