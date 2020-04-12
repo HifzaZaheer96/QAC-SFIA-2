@@ -15,7 +15,7 @@ pipeline {
         stage('Wait for installation'){
             steps{
                 
-                sh 'sleep 20'
+                sh 'sleep 30'
                
             }
         }
