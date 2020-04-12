@@ -283,12 +283,12 @@ Coverage Testing carried out to generate metric that will show how much of the s
 ### URL Coverage Testing:
  
  [urlcoverage]:  https://i.imgur.com/hKCsan7.png
- 
+
 ![urlcoverage][urlcoverage]
 
 ### Database Coverage Testing:
  
-  [dbcoverage]: https://i.imgur.com/9n7xJWp.png
+  [dbcoverage]: https://i.imgur.com/T0asvua.png
 
 ![dbcoverage][dbcoverage]
 
@@ -296,9 +296,24 @@ Coverage Testing carried out to generate metric that will show how much of the s
 ### Combining All types of Coverage Testing:
  The coverage metrics went down when both URL and Database were tested together due to the complexity of the application and by importing more libraries.
  
-  [bothcoverage]: https://i.imgur.com/gWuL9Ac.png
+  [bothcoverage]: https://i.imgur.com/RG0OiIL.png
 
 ![bothcoverage][bothcoverage]
+
+
+### Sourcing the testing file to generate coverage report
+
+ [all]: https://i.imgur.com/LoYcsaM.png
+
+![all][all]
+
+### HTML coverage report
+
+
+[html]: https://i.imgur.com/BsVo5wd.png
+
+![html][html]
+
 
 <a name ="deployment"></a>
 ## 7. Deployment
