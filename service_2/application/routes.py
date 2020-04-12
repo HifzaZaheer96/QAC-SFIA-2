@@ -14,6 +14,6 @@ def beginning():
 
 
     
-	list = ['Red','Yellow','Blue','Grey','Orange','Pink','Black']
-	
-	return "Your Outfit colour is " + list[random.randrange(7)]
+		list = ['Red','Yellow','Blue','Grey','Orange','Pink','Black']
+		
+		return "Your Outfit colour is " + list[random.randrange(7)]
