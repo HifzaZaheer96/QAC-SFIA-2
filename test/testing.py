@@ -86,6 +86,14 @@ def test_db_insert_user():
         cur.close()
         assert 1 == num_of_records 
 
+def test_db_insert_theme():
+    with app.app_context():
+        cur = mysql.connection.cursor()
+        num_of_records = cur.execute("INSERT INTO themesentence (theme_sentence) VALUES ('Your Outfit colour is Black and the theme is BBQ Party in Olympus. Your Ticket price is £11')")
+        mysql.connection.commit()         
+        cur.close()
+        assert 1 == num_of_records 
+
 def test_db_delete_user():
     with app.app_context():
         cur = mysql.connection.cursor()

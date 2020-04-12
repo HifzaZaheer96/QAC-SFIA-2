@@ -246,6 +246,10 @@ Below shows the result of the URL Testing carried out:
 
 ![urltest][urltest]
 
+[urltest1]: https://i.imgur.com/nlR5Hm5.png
+
+![urltest1][urltest1]
+
 ### Unit Testing Database:
 Database tested to allow user to input as desinged to while submitting theme, storing the random theme generated into the database to ensure the database is fully functional.
 
@@ -254,6 +258,10 @@ Below shows all the testing/ queries carried out for Database:
 [dbtest]: https://i.imgur.com/t41D9TX.png
 
 ![dbtest][dbtest]
+
+[dbtest1]: https://i.imgur.com/RYrClQx.png
+
+![dbtest1][dbtest1]
 
 ### Combining both URL and Database Testing:
 
