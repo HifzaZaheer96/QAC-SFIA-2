@@ -10,7 +10,7 @@ def beginning():
 		csv_reader = csv.reader(csv_file, delimiter=',')
 		for row in csv_reader:
 			colour = str(row[number])
-	return colour
+	return "Your Outfit colour is " + colour
 
 
     
