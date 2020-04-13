@@ -40,7 +40,8 @@ To create:
   2. A micro-service orientated architecture for the application
   3. Utilisation of Flask,Jinja2 for front-end website and integrated API's while Python and MySQL for back-end
   4. Generating Random Objects
-  5. Utilising Feature-Branch Model and creating an Ansible Playbook
+  5. Utilising Feature-Branch Model and creating an Ansible Playbook to install all dependencies via Playbook
+  6. Utilising Jenkins, Ansible, Docker for CI/CD and Nginx for Load Balancing 
 
 <a name ="solution"></a>
 ## My Solution
@@ -50,7 +51,7 @@ My application is created using Boostrap, Jinja2 and Flask for the Front-End and
 + Renders website to the user
 + Takes User Input
 + Displays the theme generated from Service 4
-+ Store the displayed theme into the database
++ Stores the displayed theme into the database
 
 ### Service 2:
 + Generates random colour of the outfit
@@ -60,6 +61,11 @@ My application is created using Boostrap, Jinja2 and Flask for the Front-End and
 
 ### Service 4:
 + Calls Service 2 and Service 3 and generates output combined from Service 2 and Service 3 and displays it back to Service 1
+
+### Technologies:
++ Nginx used as Reverse Proxy to load balance all microservices on Docker Swarm and distribute traffic among them
++ Using Ansible as Configuration Management tool to install all dependencies/packages
++ Using Jenkins to deploy Ansible Playbooks and automate Docker Swarm
 
 <a name ="trello"></a>
 ## 2. Trello Board
