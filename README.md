@@ -476,10 +476,23 @@ Below is the diagram demonstrating the **Deployment Process**:
 ## 8. Retrospect
 
 ### What went well:
++ Creating dynamic web application 
++ Completed Project before the deadline
++ Testing the application 
++ Linking Github to Jenkins and Docker Hub via github webhooks
++ Creating microservices for the application 
 
 ### Challenges faced:
-
++ Issues encountered with public keys when deploying Ansible 
++ Issued replicating Service 2 and Service 3 more than once in Docker Swarm due to using sessions in my application and therefore, the services were not getting enough knowledge from the sessions. Hence, they were replicated once but the rest of the services were replication 3 times.
++ Website going down after deploying Jenkins as due to Jenkins not being able to source the bashrc file for Database
 ### Future Improvements:
++ Adding CRUD functionality to the application 
++ Selenium Testing implemented
++ Third VM for Ansible and Jenkins
++ Implementing Volumes for further data persistent
++ Carrying out stress testing of VMs
+
 
 <a name ="authors"></a>
 ## 9. Authors
