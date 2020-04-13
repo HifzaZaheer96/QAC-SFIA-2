@@ -205,6 +205,9 @@ Below shows the final wireframe of the home page where I also considered user's 
 
 Also, I generate random location and ticket price for the theme party to add more functionalities to the application and to make it more exiting!
 
+Along with that, I also added Submit Theme Page so user's can send messages including any fun themes they want us to add to the website that were not listed already and if the theme is fun enough, they will be added to our random theme generator.
+
+
 [finalwireframe]: https://i.imgur.com/5P1tCh2.png
 
 ![finalwireframe][finalwireframe]
