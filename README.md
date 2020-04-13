@@ -107,6 +107,7 @@ Initial Trello board has all the product backlog, sprint backlog which is then b
 ## 3. Risk Assessment
 Risk Assessment was carried out to consider what could go wrong during the project and deciding on which control measures are to be taken in such situations. As a result, these control measures would help eliminate and reduce any risk involved during the project.
 
+### Initial Risk Assessment
 Below is the Initial Risk Assessment displayed in the Table:
 
 [riskassessmentmatrix]: https://i.imgur.com/u2w7SrF.png
@@ -119,9 +120,12 @@ Below is the Initial Risk Assessment displayed in the Table:
 ![riskassessment][riskassessment]
 
 
+
+### Final Risk Assessment after completion of Project
+
 Below is the Final Risk Assessment displayed in the Table:
 
-[finalriskassessment]:https://i.imgur.com/euUrgjE.png
+[finalriskassessment]:https://i.imgur.com/scjm96Z.png
 
 ![finalriskassessment][finalriskassessment]
 
