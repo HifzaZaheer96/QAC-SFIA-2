@@ -503,26 +503,9 @@ Below is the diagram demonstrating the **Deployment Process**:
 + 2 or 3 GCP Compute Engine Instances running on Ubuntu 18.04
 + MySQL server
 + SSH keys generated and the public key added to each of the servers.
-+ Jenkins installed in one of the instances, follow this [link](https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Ubuntu) for further guidance.
++ Jenkins installed in one of the instances, follow this [link](https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Ubuntu) for further guidance. Port 8080 need to be exposed for it to run.
++ Deploying Ansible and Jenkins on same instance
 
-
-
- and Ansible 
-
-
-
-
-
-Manager Node
-Install Jenkins onto the machine you are planning to run as the manager. For assisstance, please follow this link
-Download this repository to the machine you are planning to run as the manager using [this link](https://github.com/HavidDulsman/RapperNameGenerator/archive/master.zip]
-Configure your inventory.cfg file to match the credentials of your worker nodes. If more than 1 worker node is being used, feel free to add any more to your file.
-Enable Jenkins
-Worker Node
-Apply to newly generated SSH keys of your manager user and Jenkins users into your worker VMs ssh key list. NOTE: This may vary depending on your cloud service provider
-Wait! If you have configured your manager node properly, the anisble playbook and docker-compose file include commands to install of the required tools and packages.
-if you are encountering an error, try installing docker to your worker node. See this link for more infomration.
-If all of the steps have been done correctly, you should be able to run your ansible playbook and docker-compose files and everything should work fine! If you wish to configure the project to your own needs, feel free to download a copy and try yourself!
 
 <a name ="authors"></a>
 ## 9. Authors
