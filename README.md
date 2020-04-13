@@ -385,7 +385,7 @@ Below is the diagram demonstrating the **Deployment Process**:
 
 ### 5. Automatically deploying the stack 
 
-[build6]: https://i.imgur.com/KeyBBbt.png
+[build6]: https://i.imgur.com/zmvkGe7.png
 
 ![build6][build6]
 
