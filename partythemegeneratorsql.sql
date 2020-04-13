@@ -4,7 +4,7 @@ BEGIN;
 --
 -- --------------------------------------------------------
 --
--- Table structure for table `tops`
+-- Table structure for table `USER`
 --
 DROP DATABASE IF EXISTS partythemegenerator;
 CREATE DATABASE partythemegenerator;
@@ -22,7 +22,8 @@ CREATE TABLE `USER` (
 );
 
 
-
+-- Table structure for table `themesentence`
+--
 CREATE TABLE `themesentence` (
   `theme_id` int(6) NOT NULL AUTO_INCREMENT,
   `theme_sentence` varchar(500) NOT NULL,

@@ -20,14 +20,6 @@ def home():
         details = request.form
         age = details['age']
         response = requests.get('http://service_3:5002?age='+age)
-        # print(response)
-        # agestored = response.text
-        # cur = mysql.connection.cursor()
-        # cur.execute("INSERT INTO themesentence (theme_age) VALUES (%s)", [agestored])
-        # mysql.connection.commit()
-        # cur.close()
-
-
 
     response = requests.get('http://service_4:5003/randomoutfit')
     print(response)
