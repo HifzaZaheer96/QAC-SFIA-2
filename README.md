@@ -415,6 +415,13 @@ Below is the diagram demonstrating the Technology Overview:
 
 ![build9][build9]
 
+## Technology Overview:
+
+[tech]: https://i.imgur.com/yRt8RJx.png
+
+![tech][tech]
+
+
 ## Security of the Application
 
 + **Container Security**: No ports are exposed , port 5000 is also not exposed to the world.
