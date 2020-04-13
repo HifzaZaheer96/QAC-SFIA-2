@@ -250,7 +250,7 @@ Two types of tests were carried out including unit testing and coverage testing.
 <a name ="unittesting"></a>
 ## Unit Testing
 + Testing URL to check whether the app has been deployed successfully and each web page is up and running. 
-+ Testing Database to ensure data gets inserted and deleted successfully via the web application to ensure there are no errors runnung the Dynamic Web Application and to validate each unit of the software performs as it is designed to do so.
++ Testing Database to ensure data gets inserted successfully via the web application to ensure there are no errors runnung the Dynamic Web Application and to validate each unit of the software performs as it is designed to do so.
 
 ### Unit Testing URLs:
 All the web pages were tested and even pages that don't exist were tested too to ensure that the user can access what is accessible to them and can't access what is not accessible to them.
@@ -334,11 +334,16 @@ While running the coverage test report for the whole application, it showed 38% 
 
 <a name ="deployment"></a>
 ## 7. Deployment
-The App was deployed using Jenkinns,Github and Docker hub. Github webhooks was also integrated to trigger the build whenever the developer commits any change to the branch where docker hub is connected to github so all the build process of images and pushing them onto the docker hub is done automatically.
 
- As Jenkins is connected to Github, this way when webhook was added to the job, it ensured that the build was triggered automatically everytime the code is commited to the Github.Therefore, Jenkins triggers the build automatically and then deploys ansible playbook which installs Docker on Manager and worker node and automates docker swarm. 
++ The App was deployed using Jenkinns,Github and Docker hub. Github webhooks was also integrated to trigger the build whenever the developer commits any change to the branch. Docker hub is also connected to github so all the build process of images and pushing them onto the docker hub is done automatically.
 
-This prevents human error as ansible is a configuration management tool therefore, it deploys the same software to as many worker nodes automatically without installing them manually which not only saves time but also prevents human error.
+ + As Jenkins is connected to Github, this way when webhook was added to the job, it ensured that the build was triggered automatically everytime the code is commited to the Github.Therefore, Jenkins triggers the build automatically and then deploys Ansible Playbook
+ 
+ + Ansible SSHs into both the Manager and the Worker nodes to set up the environmemt which then installs Docker on Manager and worker node and automates Docker Swarm. 
+
++ This prevents human error as ansible is a configuration management tool therefore, it deploys the same software to as many worker nodes automatically without installing them manually which not only saves time but also prevents human error.
+
++ Nginx then conduts a Reverse Proxy and redirects any service coming in on port 5000 to port 80.
 
 Below is the diagram demonstrating the Technology Overview:
 
