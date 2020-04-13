@@ -345,9 +345,9 @@ While running the coverage test report for the whole application, it showed 38% 
 
 + Nginx then conduts a Reverse Proxy and redirects any service coming in on port 5000 to port 80.
 
-Below is the diagram demonstrating the ***Deployment Process***:
+Below is the diagram demonstrating the **Deployment Process**:
 
-[deployment]:  https://i.imgur.com/3l9AI8k.png
+[deployment]:  https://i.imgur.com/B8DeP4G.png
 
 ![deployment][deployment]
 
