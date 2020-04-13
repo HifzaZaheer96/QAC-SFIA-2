@@ -446,13 +446,14 @@ Below is the diagram demonstrating the **Deployment Process**:
 
 ![security4][security4]
 
-+ **Jenkins**: Port 8080 for jenkins is not exposed to the world as Jenkins run on port 8080.
++ **Jenkins**: Jenkins run on port 8080 to allow configuration and builds and to integrate webhooks.
 + **Front- End**: The app is accessible to everyone using 0.0.0.0/0 firewall rule. 
 + **Firewall Rule**: Configuring firewall for Docker Swarm allowing it to run on port 2377 tcp.
 
 [security5]: https://i.imgur.com/XLUiqJx.png
 
 ![security5][security5]
++ **MYSQL**: Sensitive information such as MYSQL IP Address, Password, Database name and username are all stored in bashrc file to prevent exposure of sensitive information.
 
 ## List of technologies used:
 + Trello Board - Project Planning and Tracking Board
