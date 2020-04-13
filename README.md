@@ -343,7 +343,7 @@ While running the coverage test report for the whole application, it showed 38% 
 
 + This prevents human error as ansible is a configuration management tool therefore, it deploys the same software to as many worker nodes automatically without installing them manually which not only saves time but also prevents human error.
 
-+ Nginx then conduts a Reverse Proxy and redirects any service coming in on port 5000 to port 80.
++ Nginx then conduts a Reverse Proxy into microservice 1.
 
 Below is the diagram demonstrating the **Deployment Process**:
 
