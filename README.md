@@ -493,6 +493,10 @@ Below is the diagram demonstrating the **Deployment Process**:
 + Implementing Volumes for further data persistent
 + Carrying out stress testing of VMs
 
+[future]: https://i.imgur.com/yqmmvf7.png
+
+![future][future]
+
 
 <a name ="authors"></a>
 ## 9. Authors
