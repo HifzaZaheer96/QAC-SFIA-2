@@ -163,7 +163,7 @@ After the new features are revised they are now ready to merged to the master br
 
 <a name ="initialdatabase"></a>
 ## Initial Database
-Below is the initial Database for my project where I had minimum of one table that stores the randomly generated objects/sentence that appears on the front-end. 
+Below is the initial Database for my project where I had minimum of one table that stores the randomly generated objects/sentence that appears on the front-end. This is how data was kept persistent. 
 
 [initialdatabase]: https://i.imgur.com/gZMfgTu.png
 
@@ -196,12 +196,14 @@ Wireframe was created to help arrange the elements on the website and to achieve
 
 Below shows the initial wireframe of the home page.
 
-[initialwireframe]: https://i.imgur.com/0YzOmpH.png
+[initialwireframe]: https://i.imgur.com/Y3BQ7qS.png
 
 ![initialwireframe][initialwireframe]
 
 
-Below shows the final wireframe of the home page.
+Below shows the final wireframe of the home page where I also considered user's input to generate fun themes to give the user a bit more control of the application so they generate personal themes for themselves. 
+
+Also, I generate random location and ticket price for the theme party to add more functionalities to the application and to make it more exiting!
 
 [finalwireframe]: https://i.imgur.com/5P1tCh2.png
 
