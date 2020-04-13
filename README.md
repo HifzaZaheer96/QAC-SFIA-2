@@ -125,7 +125,7 @@ Below is the Initial Risk Assessment displayed in the Table:
 
 Below is the Final Risk Assessment displayed in the Table:
 
-[finalriskassessment]:https://i.imgur.com/scjm96Z.png
+[finalriskassessment]:https://i.imgur.com/TznNtJB.png
 
 ![finalriskassessment][finalriskassessment]
 
